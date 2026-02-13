@@ -21,8 +21,8 @@ classifiers = [
 dependencies = ["httpx>=0.27"]
 
 [project.urls]
-Homepage = "https://github.com/FredericTriworworquet/femtologger-python"
-Repository = "https://github.com/FredericTriquet/femtologger-python"
+Homepage = "https://github.com/frederictriquet/FemtoLogger-python"
+Repository = "https://github.com/frederictriquet/FemtoLogger-python"
 
 [build-system]
 requires = ["hatchling"]
