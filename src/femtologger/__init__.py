@@ -2,6 +2,7 @@
 
 from femtologger._logger import FemtoLogger
 from femtologger._types import LogEntry, LogLevel, Transport
+from femtologger._version import __version__
 from femtologger.transports import TelegramTransport
 
 __all__ = [
@@ -10,4 +11,5 @@ __all__ = [
     "LogLevel",
     "TelegramTransport",
     "Transport",
+    "__version__",
 ]
