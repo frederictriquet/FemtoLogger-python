@@ -1,5 +1,10 @@
 # FemtoLogger (Python)
 
+[![PyPI version](https://img.shields.io/pypi/v/femtologger)](https://pypi.org/project/femtologger/)
+[![Python versions](https://img.shields.io/pypi/pyversions/femtologger)](https://pypi.org/project/femtologger/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![codecov](https://codecov.io/gh/frederictriquet/FemtoLogger-python/graph/badge.svg)](https://codecov.io/gh/frederictriquet/FemtoLogger-python)
+
 Minimal async logger with Telegram transport for Python.
 
 ## Install

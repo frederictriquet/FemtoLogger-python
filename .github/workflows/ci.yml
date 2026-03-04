@@ -19,7 +19,11 @@ jobs:
       - run: uv python install ${{ matrix.python-version }}
       - run: uv sync --python ${{ matrix.python-version }}
       - run: uv run pyright
-      - run: uv run pytest --cov=femtologger --cov-report=term
+      - run: uv run pytest --cov=femtologger --cov-report=term --cov-report=xml
+      - uses: codecov/codecov-action@v5
+        with:
+          files: coverage.xml
+        if: matrix.python-version == '3.13'
 
   build:
     runs-on: ubuntu-latest
